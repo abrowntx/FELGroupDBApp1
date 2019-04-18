@@ -1,0 +1,17 @@
+c:\users\owner\source\repos\basicDBapp\basicDBapp\bin\Debug\basicDBapp.exe.config
+c:\users\owner\source\repos\basicDBapp\basicDBapp\bin\Debug\basicDBapp.exe
+c:\users\owner\source\repos\basicDBapp\basicDBapp\bin\Debug\basicDBapp.pdb
+c:\users\owner\source\repos\basicDBapp\basicDBapp\obj\Debug\basicDBapp.csprojAssemblyReference.cache
+c:\users\owner\source\repos\basicDBapp\basicDBapp\obj\Debug\MainWindow.g.cs
+c:\users\owner\source\repos\basicDBapp\basicDBapp\obj\Debug\App.g.cs
+c:\users\owner\source\repos\basicDBapp\basicDBapp\obj\Debug\basicDBapp_MarkupCompile.cache
+c:\users\owner\source\repos\basicDBapp\basicDBapp\obj\Debug\basicDBapp_MarkupCompile.lref
+c:\users\owner\source\repos\basicDBapp\basicDBapp\obj\Debug\MainWindow.baml
+c:\users\owner\source\repos\basicDBapp\basicDBapp\obj\Debug\basicDBapp.g.resources
+c:\users\owner\source\repos\basicDBapp\basicDBapp\obj\Debug\basicDBapp.Properties.Resources.resources
+c:\users\owner\source\repos\basicDBapp\basicDBapp\obj\Debug\basicDBapp.csproj.GenerateResource.cache
+c:\users\owner\source\repos\basicDBapp\basicDBapp\obj\Debug\basicDBapp.csproj.CoreCompileInputs.cache
+c:\users\owner\source\repos\basicDBapp\basicDBapp\obj\Debug\basicDBapp.exe
+c:\users\owner\source\repos\basicDBapp\basicDBapp\obj\Debug\basicDBapp.pdb
+c:\users\owner\source\repos\basicDBapp\basicDBapp\obj\Debug\entry.g.cs
+c:\users\owner\source\repos\basicDBapp\basicDBapp\obj\Debug\entry.baml
