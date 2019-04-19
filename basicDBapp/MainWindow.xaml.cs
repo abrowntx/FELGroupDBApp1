@@ -14,6 +14,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Data.OleDb;
 using System.Data;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 
 namespace basicDBapp
 {
@@ -25,6 +27,48 @@ namespace basicDBapp
         public MainWindow()
         {
             InitializeComponent();
+
+
+            QueryandFill2();
+
+
+
+        }
+
+        private void QueryandFill2()
+        {
+            string cs = @"server=remotemysql.com;userid=H6lSwzK5uG;password=obHmCXTuXl;database=H6lSwzK5uG";
+
+            MySqlConnection conn = null;
+            try
+            {
+                conn = new MySqlConnection(cs);
+                conn.Open();
+                /*
+                MySqlCommand cmd1 = new MySqlCommand();
+                cmd1.Connection = conn;
+                cmd1.CommandText = "SELECT * from clients";
+                cmd1.Prepare();
+                */
+                MySqlDataAdapter DA = new MySqlDataAdapter("SELECT * from clients", conn);
+                DataTable DT = new DataTable();
+                DA.Fill(DT);
+
+                MessageBox.Show(DT.Columns.Count.ToString());
+                
+
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("Error: {0}", ex.ToString());
+            }
+            finally
+            {
+                if (conn != null)
+                {
+                    conn.Close();
+                }
+            }
         }
 
         private void QueryandFill()
@@ -53,7 +97,7 @@ namespace basicDBapp
 
         private void btnRefresh_Click(object sender, RoutedEventArgs e)
         {
-            QueryandFill();
+            QueryandFill2();
         }
 
         private void btnEntry_Click(object sender, RoutedEventArgs e)
